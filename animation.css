@@ -1,0 +1,58 @@
+.main{
+    position: relative;
+    animation-name: athul;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes athul{
+    0%{
+    
+        left: 0px;
+        color: red;
+    }
+    10%{
+        
+    color: blue;
+        left: 20%;
+    }
+    20%{
+        
+        left: 40%;
+        color: green;
+    }
+    30%{
+        left: 60%;
+        color: yellow;
+    }
+    40%{
+        left: 80%;
+        color: pink;
+        
+    }
+    50%{
+        left: 100%;
+        color: orange;
+    }
+    60%{
+        left: 80%;
+       color: purple;
+    }   
+    70%{
+        left: 60%;
+        color: brown;
+    }
+    80%{
+        left: 40%;
+        color: black;
+    }
+    90%{
+        left: 20%;
+       color: white;
+    }
+    100%{
+        left: 0px;
+        color: red;
+    }
+}
